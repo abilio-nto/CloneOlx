@@ -4,6 +4,7 @@ import { BrowserRouter } from 'react-router-dom';
 import { Template } from './components/MainComponents';
 import Header from './components/partials/Header';
 import Rotas from './Routes';
+import './App.css'
 const App = (props) => {
   return (
     <BrowserRouter>
